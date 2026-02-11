@@ -26,6 +26,10 @@ git -C /workspace/ComfyUI/custom_nodes clone https://github.com/dsigmabcn/comfyu
 echo "clone ComfyUI-RunpodDirect"
 git -C /workspace/ComfyUI/custom_nodes clone https://github.com/MadiatorLabs/ComfyUI-RunpodDirect.git
 
+# Installing ComfyUI-Crystools.
+echo "clone ComfyUI-Crystools"
+git -C /workspace/ComfyUI/custom_nodes clone https://github.com/crystian/ComfyUI-Crystools.git
+
 # Clean up the installation scripts.
 echo "Cleaning up..."
 rm install_script.sh run_cpu.sh install-comfyui-venv-linux.sh
